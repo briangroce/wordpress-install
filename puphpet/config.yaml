@@ -168,7 +168,7 @@ nginx:
                         - 'SCRIPT_FILENAME $document_root$fastcgi_script_name'
     proxies: {  }
 apache:
-    install: '1'
+    install: '0'
     settings:
         version: 2.4
         user: www-data
